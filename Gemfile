@@ -13,6 +13,7 @@ gem 'simple_form'
 
 gem 'jquery-rails'
 gem 'turbolinks'
-gem 'jbuilder', '~> 2.0'
+gem 'jbuilder', '~> 2.0'# used for serialization of models into JSON
+gem 'kaminari' #adds pagination to ActiveModels
 gem 'sdoc', '~> 0.4.0',          group: :doc
 gem 'spring',        group: :development
